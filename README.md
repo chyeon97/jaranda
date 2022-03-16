@@ -1,18 +1,14 @@
 <p align='middle'>
-<a href='https://jaranda.netlify.app/'><img src='https://user-images.githubusercontent.com/51367622/128473643-62cedb40-2390-4356-9db4-5ddb2cfa346e.png' width="100px;" alt="LiveMD" /></a></p>
-<p align='middle'><img alt="GitHub top language" src="https://img.shields.io/github/languages/top/six-sense/jaranda?color=blueviolet"> <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/six-sense/jaranda"> 
-<h1 align='middle'><a href='https://jaranda.netlify.app/'>https://jaranda.netlify.app/</a></h1>
 
----
-🧐[노션 미팅 로그](https://sore-radiator-aba.notion.site/0d402ad52bd648d1909a485f28052d90)에서 더 다양한 개발 과정을 확인해보세요!
-
----
+<h1 align="middle"><a  href='https://jaranda.netlify.app/'>https://jaranda.netlify.app/</a></h1>
+<p align='middle'><img alt="GitHub top language" src="https://img.shields.io/github/languages/top/six-sense/jaranda?color=blueviolet"> <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/six-sense/jaranda">
 
 <br/>
 
 ## 📌 프로젝트 소개
 
-###  프리온보딩 코스 Jaranda 기업 과제
+### 프리온보딩 코스 Jaranda 기업 과제
+
 > ❕ **회원가입, 로그인 / 로그아웃 기능과 다양한 메뉴를 가지고 있는 홈페이지, 관리자 페이지 구현하기**❗
 
 <br/>
@@ -62,7 +58,6 @@
 - 관리자 페이지에서 계정별 메뉴 설정 시 해당 계정에게 선택된 메뉴만 보여짐
 - 유저가 권한이 없는 페이지주소를 입력하면 페이지 접근불가, 메인페이지로 이동
 - Not Found 페이지
-        
 
 `라우트` && `접근 권한`
 
@@ -76,9 +71,7 @@
 
 <br/>
 
-
 ## 📂프로젝트 구조
-
 
 | 폴더 / 파일 | 설명                               |
 | ----------- | ---------------------------------- |
