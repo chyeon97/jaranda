@@ -66,10 +66,8 @@ export default function SignIn() {
   };
 
   const onKeyPressEnterkey = (e) => {
-    if (e.key === 'Enter') {
-      e.target.placeholder === '아이디'
-        ? inputPw.current.focus()
-        : onClickCheckLogin();
+    if (e.key === 'Enter' && inputIdValue.length > 0) {
+      e.target.id === 'id' ? inputPw.current.focus() : onClickCheckLogin();
     }
   };
 
@@ -84,12 +82,15 @@ export default function SignIn() {
             </VaildMessage>
           )}
           <IdInput
+            id="id"
             onChange={(e) => onChangePwInput(e)}
             onKeyPress={onKeyPressEnterkey}
           />
           <PasswordInput
+            id="pwd"
             onChange={(e) => onChangeIdInput(e)}
             onKeyPress={onKeyPressEnterkey}
+            ref={inputPw}
           />
           <LoginButton onClick={onClickCheckLogin}>로그인</LoginButton>
           <Bar />
